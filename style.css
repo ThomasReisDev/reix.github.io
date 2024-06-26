@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(23, 0, 32);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: azure;
+}
+
+h5 {
+    color:  hsl(274, 94%, 57%);
+    font-weight: 600;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: small;
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    background: #00000050 ;
+    border-radius: 13px;
+}
+
+.container {
+    border: 1px solid #ffffff;
+    border-radius: 13px;
+}
+
+.container .box .img-reis {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .box .img-reis img{
+    background-repeat: no-repeat;
+    height: 110px;
+    width: 110px;
+    border-radius: 70%; 
+    border: 2px solid #ffffff;
+}
+
+
+#info {
+    height: 100px;
+    text-align: center;
+}
+
+#info h1 {
+    padding-bottom: 12px;
+}
+
+
+#info h4 {
+    padding-bottom: 1px;
+}
+
+
+#info h5 {
+    padding-bottom: 20px;
+}
+
+.social {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social li {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+    font: bold;
+    font-weight: 600;
+}
+
+
+.social button {
+    color: white;
+    background-color: rgb(23, 0, 32);
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    border:1px solid #ffffff1b; 
+}
+
+.social button:hover {
+    background-color: rgb(132, 0, 255);
+}
+
+footer {
+    padding-top: 15px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff000;
+}
+
+footer a:hover {
+    color: rgb(255, 0, 0);
+}
+
